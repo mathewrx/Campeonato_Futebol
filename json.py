@@ -1,7 +1,7 @@
  
 from flask import Flask, json, jsonify
 from flask import request
-from prog import Partida, Campeonato
+from campfut import Partida, Campeonato
 from playhouse.shortcuts import model_to_dict
 
 
